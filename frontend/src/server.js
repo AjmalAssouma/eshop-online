@@ -2,4 +2,4 @@
 
 // export const backend_url = "http://localhost:8000/";
 
-export const server = "https://eshop-online-back.vercel.app/api/v2";
+export const server = "https://eshop-back.vercel.app/api/v2";
