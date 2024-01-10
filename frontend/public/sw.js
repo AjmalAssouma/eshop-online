@@ -1,5 +1,4 @@
 
-
 const CACHE_NAME = 'my-ecommerce-app-cache';
 const urlsToCache = [
     '/',
