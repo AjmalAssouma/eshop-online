@@ -36,30 +36,6 @@ self.addEventListener('activate', (event) => {
 
 
 self.addEventListener('fetch', (event) => {
-
-  // if (event.request.url === "http://localhost:3000/static/js/bundle.js") {
-  //   event.waitUntil(
-  //     this.registration.showNotification("hello", {
-  //         body: "hello from notif",
-  //     })
-  //   )
-  // }
-
-  // // console.warn("url", event.request.url)
-
-
-//   if (!navigator.onLine) {
-//     if (event.request.url === "https://eshop-online-front.vercel.app/static/js/bundle.js") {
-//         event.waitUntil(
-//             this.registration.showNotification("Internet", {
-//                 body: 'Internet Not Working',
-//                 icon: 'img/favicon-32x32.png',
-//             })
-//         )
-//     }
-// }
-
-
   event.respondWith(
     caches.match(event.request)
       .then((response) => {
