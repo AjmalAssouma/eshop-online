@@ -1,11 +1,11 @@
 
-const CACHE_NAME = 'my-ecommerce-app-cache';
+const CACHE_NAME = 'my-ecommerce-app-cache-v1';
 const urlsToCache = [
     '/',
     '/index.html',
     '/manifest.json',
-    '/static/css/main.5e9bdccd.css',
-    '/static/js/main.4e01b99d.js'
+    '/static/js/main.af47cf73.js',
+    '/static/css/main.5e9bdccd.css'
 ];
 
 self.addEventListener('install', (event) => {
