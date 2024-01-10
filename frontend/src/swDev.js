@@ -28,7 +28,7 @@ if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
     navigator.serviceWorker
       .register(swUrl)
       .then((registration) => {
-        console.log('Service Worker Registered');
+        console.log('Service Workers registered in production mode');
         console.log('Registration', registration);
       })
       .catch((error) => {
