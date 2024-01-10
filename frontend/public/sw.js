@@ -5,12 +5,8 @@ const urlsToCache = [
     '/',
     '/index.html',
     '/manifest.json',
-    '/static/js/bundle.js',
-    '/static/js/main.chunk.js',
-    '/static/js/0.chunk.js',
-    '/static/css/main.chunk.css',
-    '/bootstrap.min.css',
-    '/users'
+    '/static/css/main.5e9bdccd.css',
+    '/static/js/main.4e01b99d.js'
 ];
 
 self.addEventListener('install', (event) => {
